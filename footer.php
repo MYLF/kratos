@@ -127,7 +127,7 @@ if (! wp_is_mobile() && kratos_option('openlive2d')) {
 </script>
 
 <!--       鼠标特效 -->
-<script type="text/javascript" style="user-select：none;">
+<script type="text/javascript">
     var a_idx = 0;
     jQuery(document).ready(function($) {
         $("body").click(function(e) {
@@ -141,6 +141,7 @@ if (! wp_is_mobile() && kratos_option('openlive2d')) {
                 "top": y - 20,
                 "left": x,
                 "position": "absolute",
+                "user-select": "none",
                 "font-weight": "bold",
                 "color": "#ff7bb0"
             });
