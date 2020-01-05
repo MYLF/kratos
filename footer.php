@@ -127,7 +127,7 @@ if (! wp_is_mobile() && kratos_option('openlive2d')) {
 </script>
 
 <!--       鼠标特效 -->
-<script type="text/javascript">
+<script type="text/javascript" style="user-select：none;">
     var a_idx = 0;
     jQuery(document).ready(function($) {
         $("body").click(function(e) {
