@@ -157,7 +157,10 @@ if (! wp_is_mobile() && kratos_option('openlive2d')) {
         });
     });
 </script>
-
+<!--一个小彩蛋-->
+<script>
+        console.info('Everything Gonna Be OK!');
+</script>
 
 </body>
 </html>
