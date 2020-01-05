@@ -11,7 +11,13 @@
 <img alt="License" src="https://img.shields.io/github/license/xb2016/kratos-pjax.svg?style=flat-square"/>
 </p>
 
+## 三改作者的一些话
+目前二改主题还在更新中，我这边也会尽量同步二改的更新,并且在二改的基础上面加入一些小功能或者完善一些二改没有到位的地方
 
+> 更新日志地址：
+> [三改更新日志](https://venrus.work/changelog)
+
+## 以下内容均来自二改作者
 ## 主题介绍
 本主题并非我个人原创，只是在  [原作者](https://github.com/xb2016/kratos-pjax)的主题上进行的魔改，不过现在我已经快把整个主题所有部分的代码都换掉了。
 这里引用主题的介绍:
