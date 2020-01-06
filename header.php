@@ -1,5 +1,11 @@
 <!DOCTYPE HTML>
 <html <?php language_attributes(); ?>>
+
+<?php 
+/*判断是否需要加载instantclick脚本*/
+    if(kratos_option('page_instantclick')==1){?>
+    <script src="<?php echo  bloginfo('template_url').'/static/js/instantclick.js';?>" type="module"></script>
+<?php }?>
 <?php
 /*B博处理函数*/
 /*先判断是否需要跳转B博*/
@@ -218,3 +224,4 @@ if($_COOKIE['goto_bibo']==1){
                 <div id="kratos-blog-post" <?php if(kratos_option('background_mode')=='color') echo 'style="background:'.kratos_option('background_index_color').'"'; ?>>
 
 <?php }?>
+

@@ -30,6 +30,12 @@ function optionsframework_options(){
         'std'=>'1',
         'type'=>'checkbox');
     $options[] = array(
+        'name'=>'instantclick V3.0.0',
+        'desc'=>'是否启用instantclick预加载,启用后会加载鼠标悬停超过65ms的网页,可以提升网页加载速度',
+        'id'=>'page_instantclick',
+        'std'=>'1',
+        'type'=>'checkbox');
+    $options[] = array(
         'name'=>'站点地图',
         'desc'=>'是否启用站点地图(更新文章时生成，需要/目录的写权限)',
         'id'=>'sitemap',
