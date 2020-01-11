@@ -18,6 +18,7 @@ require_once(get_template_directory().'/inc/smtp.php');
 require_once(get_template_directory().'/inc/logincfg.php');
 require_once(get_template_directory().'/inc/avatars.php');
 require_once(get_template_directory().'/inc/myfunction.php');
+require_once(get_template_directory().'/inc/fancybox.php');//引入Fancybox
 require_once(get_template_directory().'/inc/live2d/live2d.php');//引入live2d界面
 
 

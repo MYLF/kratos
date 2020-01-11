@@ -94,14 +94,16 @@ if (! wp_is_mobile() && kratos_option('openlive2d')) {
 ?>
 <!--Qplayer-->
 <!--动态加载效果-->
-
-
 <?php wp_footer();if(kratos_option('add_script')){ ?>
     <script type="text/javascript">
         <?php echo kratos_option('add_script'); ?>
     </script>
 <?php } ?>
-
+<!--Fancybox引入-->
+<?php if(kratos_option('light_box_mode')=='fancybox'){?>
+    <link rel="stylesheet" type="text/css" href="<?php echo  bloginfo('template_url').'/static/css/jquery.fancybox.css';?>" />
+    <script id="fancybox" data-fancybox="1" data-fancyboxf="<?php echo kratos_option('fancybox_force') ?>" data-button1="<?php echo kratos_option('fancybox_button1') ?>" data-button2="<?php echo kratos_option('fancybox_button2') ?>" data-button3="<?php echo kratos_option('fancybox_button3') ?>" data-button4="<?php echo kratos_option('fancybox_button4') ?>" data-button5="<?php echo kratos_option('fancybox_button5') ?>" data-button6="<?php echo kratos_option('fancybox_button6') ?>" data-button7="<?php echo kratos_option('fancybox_button7') ?>" data-arrow="<?php echo kratos_option('fancybox_arrow') ?>" data-infobar="<?php echo kratos_option('fancybox_infobar') ?>"  data-thumbs="<?php echo kratos_option('fancybox_thumbs') ?>" data-loop="<?php echo kratos_option('fancybox_loop') ?>" data-keyboard="<?php echo kratos_option('fancybox_keyboard') ?>" data-protect="<?php echo kratos_option('fancybox_protect') ?>" data-animationeffect="<?php echo kratos_option('fancybox_animationeffect') ?>" data-transitioneffect="<?php echo kratos_option('fancybox_transitioneffect') ?>"  src="<?php echo  bloginfo('template_url').'/static/js/jquery.fancybox.js';?>"></script>
+<?php }?>
 <!--切换标签实现网页标题变化-->
 <script type="text/javascript">
     /*自动刷新页面，避免无法访问*/
